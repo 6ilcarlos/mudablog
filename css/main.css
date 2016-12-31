@@ -1,0 +1,181 @@
+body
+{
+  font-family: 'Montserrat', sans-serif;
+  margin:0;
+}
+.header
+{
+  background-color: #D63F31;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+}
+.logo
+{
+  display: inline-block;
+  margin: 5px 40px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.logo img
+{
+  width: 100px;
+}
+.navegacion .navega:hover
+{
+  border-top: 5px solid white;
+}
+.navegacion .boton:hover
+{
+  background-color: #083D77;
+  color: #E6E6EA;
+}
+.borde
+{
+  border-left: solid white;
+  padding: 5px;
+}
+.menu
+{
+  font-size: 20px;
+  display: inline-block;
+  position: absolute;
+  right: 1%;
+  text-decoration: none;
+  border-top: 5px solid rgba(0, 0, 0, 0);
+}
+.menu li
+{
+  display: inline-block;
+}
+.menu a
+{
+  /*color: white;*/
+  text-decoration: none;
+  padding-top: 30px;
+}
+.navega
+{
+  color: #E6E6EA;
+}
+.boton
+{
+  background: #FED766;
+  padding: 30px 20px;
+  border-radius: 12px;
+  color: #191716;
+  box-shadow: 0 5px #E6E6EA;
+}
+.contenedor
+{
+  display: block;
+  width: 100%;
+  position: relative;
+  margin: auto;
+}
+.contenido
+{
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  background: #E6E6EA;
+}
+.wrapper
+{
+  display: flex;
+  max-width: 1000px;
+  max-height: 600px;
+  overflow: hidden;
+  margin: 15px auto;
+
+}
+.destacado img
+{
+  width: 100%;
+}
+.destacado
+{
+  display: flex;
+}
+.titulod
+{
+  position: relative;
+  bottom: 290px;
+  left: 70px;
+  background: rgba(255,255,255,0.8);
+  padding: 30px;
+  max-width: 300px;
+}
+.destacado a
+{
+  text-decoration: none;
+  color: #2D2C2B;
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer-article
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border-top: .5px solid #191716;
+  padding-top: 10px
+}
+.fila1, .fila2
+{
+  display: inline-block;
+}
+.enlaces-articulos
+{
+  max-width: 930px;
+}
+.articulo
+{
+  float: left;
+  display: block;
+  min-width: 290px;
+  max-width: 31%;
+  margin: 10px;
+}
+.imagen-articulo figure
+{
+  margin: 0;
+}
+.articulo img
+{
+  width: 100%;
+}
+.articulo a
+{
+  text-decoration: none;
+  color: #2D2C2B;
+}
+.paginas
+{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.pag ul
+{
+  padding: 10px;
+}
+.pag li
+{
+  display: inline-block;
+}
+.next
+{
+  border: 0.5px solid #2D2C2B;
+  background: #EAEAEA;
+  padding: 5px 10px;
+}
+.epag
+{
+  margin: 5px;
+}
